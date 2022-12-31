@@ -1,0 +1,55 @@
+---
+# document 1 
+# key - value
+cat: 2
+dog: 4
+bird: 2
+fish: 1
+---
+# document 2
+# sequence
+Continents:
+ - Europe
+ - North America
+ - Asia
+ - Africa
+ - Australia
+ - Antarctica
+# document 3
+# nesting lvl
+Continents:
+ - Europe:
+    Italy: 1
+    Greece: 2
+ - North America:
+    Canada: 3
+    USA: 4
+ - South America:
+    Argentina: 5
+    Chile: 6
+ - Asia:
+    Japan: 7
+    India: 8
+ - Africa:
+    Egypt: 9
+    RPA: 10
+ - Australia:
+    Australia: 11
+ - Antarctica:
+    None: 12, 13, 14
+message: |
+ this is interesting
+ random cpountries
+ random numbers
+ second line
+---
+# document 4
+# personal files
+  UserName: John
+  Password: 1234
+  Phone: 234432234
+  Occupation:
+        -Rocket scientist
+        -Floor conservator
+        -Quantum physicists
+...
